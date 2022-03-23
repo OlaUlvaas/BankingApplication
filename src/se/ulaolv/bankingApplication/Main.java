@@ -9,13 +9,21 @@ public class Main {
     System.out.println(ola.getBalance());
     ola.desposit(1000);
     per.desposit(128);
-    System.out.println(ola.getBalance());
+    /*System.out.println(ola.getBalance());
     System.out.println(per.getPreviousTransaction());
     ola.withdraw(123);
     System.out.println(ola.getBalance());
     System.out.println(ola.getPreviousTransaction());
     ola.withdraw(228);
     System.out.println(ola.getBalance());
+    System.out.println(per.getBalance());
+    ola.withdraw(67);
+    per.withdraw(101);
+    System.out.println(ola.getBalance());
+    System.out.println(per.getBalance());
+    per.withdraw(28);
+    System.out.println(per.getBalance());*/
 
+    ola.menu();
     }
 }
